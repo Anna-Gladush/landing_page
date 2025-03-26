@@ -1,3 +1,34 @@
+* {
+    font-family: Roboto;
+}
+
+.header,
+.main {
+    background-color: #1F2937;
+}
+
+.header {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+h1 {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.main p,
+ul,
+.footer {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.footer {
+    background-color: #1F2937;
+}
+
 .gallery img {
     width: 300px;
     height: auto;
@@ -5,4 +36,29 @@
 .main img {
     width: 500px;
     height: auto;
+}
+
+/* body {
+    display: flex;
+    flex-direction: column;
+} */
+
+h2 {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 900;
+}
+
+.quote {
+    background-color: #E5E7EB;
+}
+#insp {
+    font-size: 36px;
+    font-style: light italic;
+    color: #1F2937;
+}
+
+
+.button {
+    background-color: #3882F6;
 }
