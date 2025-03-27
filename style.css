@@ -1,5 +1,6 @@
 * {
     font-family: Roboto;
+    /* box-sizing: border-box; */
 }
 
 .header,
@@ -43,23 +44,23 @@ ul,
 }
 
 .gallery img {
-    width: 150px;
+    max-width: 150px;
     height: auto;
     border: 3px solid #3882F6;
     border-radius: 15px;
-    flex-shrink: 1;
 }
 
 .main img {
-    width: 600px;
+    max-width: 350px;
     height: auto;
-    flex-shrink: 1;
 }
 
 body {
     margin: 0;
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
+    flex: 1 1 0%;
 }
 
 .gallery h2 {
@@ -178,9 +179,9 @@ h3 {
 }
 
 .text {
+    width: 500px;
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
     justify-content: center;
     align-items: flex-start;
 }
