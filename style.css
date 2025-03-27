@@ -5,17 +5,23 @@
 .header,
 .main {
     background-color: #1F2937;
+    padding-left: 150px;
+    padding-right: 150px;
 }
 
 .header {
     font-size: 24px;
     color: #F9FAF8;
+    top: 0;
+    right: 0;
+    left: 0;
 }
 
 h1 {
     font-size: 48px;
     color: #F9FAF8;
     font-weight: 900;
+    margin: 0;
 }
 
 .main p,
@@ -27,26 +33,37 @@ ul,
 
 .footer {
     background-color: #1F2937;
+    bottom: 0;
+    right: 0;
+    left: 0;
 }
 
 .gallery img {
-    width: 300px;
+    width: 150px;
     height: auto;
-}
-.main img {
-    width: 500px;
-    height: auto;
+    border: 3px solid #3882F6;
+    border-radius: 15px;
+    flex-shrink: 1;
 }
 
-/* body {
+.main img {
+    width: 600px;
+    height: auto;
+    flex-shrink: 1;
+}
+
+body {
+    margin: 0;
     display: flex;
     flex-direction: column;
-} */
+}
 
-h2 {
+.gallery h2 {
     color: #1F2937;
     font-size: 36px;
     font-weight: 900;
+    padding-bottom: 20px;
+    padding-top: 20px;
 }
 
 .quote {
@@ -58,7 +75,81 @@ h2 {
     color: #1F2937;
 }
 
-
 .button {
     background-color: #3882F6;
+}
+button {
+    padding: 7px 37px;
+    background-color: #3882F6;
+    color: #E5E7EB;
+    border: 1px solid #E5E7EB;
+    border-radius: 7px;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 0px;
+    padding-bottom: 130px;
+}
+
+ul {
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+    margin: 18px;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #E5E7EB;
+}
+
+h3 {
+    margin-top: 18px;
+}
+
+.main {
+    display: flex;
+    gap: 50px;
+    padding-bottom: 150px;
+    justify-content: center;
+}
+
+.main p {
+    margin: 0
+}
+
+.main button {
+    margin-top: 10px;
+    border: 0;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.gallery {
+    display: flex;
+    flex-direction: column;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-bottom: 100px;
+    align-items: center;
+}
+.card {
+    width: 150px;
+}
+
+.smth {
+    display: flex;
+    flex-direction: row;
+    gap: 55px;
 }
